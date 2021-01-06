@@ -1,0 +1,78 @@
+        @media (min-width: 684px) {
+            .quotes {
+                position: absolute;
+                top: -11vh;
+                left: 15%;
+            }
+            .slider-1 {
+                position: relative;
+                height: 100vh;
+                width: 100%;
+            }
+            .slider-2 {
+                position: relative;
+                height: 100vh;
+                width: 100%;
+            }
+            .testimony {
+                width: 640px;
+                height: auto;
+                position: absolute;
+                top: 200px;
+                left: 155px;
+            }
+            .msg {
+                font-size: 32px;
+            }
+            .author {
+                display: flex;
+                margin-top: 40px;
+            }
+            .name {
+                font-weight: 700;
+                margin-right: 10px;
+            }
+            .position {
+                font-weight: 300;
+            }
+            //     // //Profile
+            .profile {
+                position: relative;
+                float: right;
+                //         // margin: auto;
+                // z-index: -1;
+                height: 100vh;
+                width: 50%;
+            }
+            .img {
+                position: absolute;
+                top: 84px;
+                left: 52px;
+                height: 450px;
+                box-shadow: -95px 141px 30px -112px rgba(186, 186, 207, 0.6);
+            }
+            .buttons {
+                top: 508px;
+                left: 82px;
+                display: flex;
+                justify-content: space-between;
+                padding: 16px;
+                width: 105px;
+                background: white;
+                border-radius: 30px;
+                position: absolute;
+            }
+            .pattern-right {
+                height: 538px;
+                position: absolute;
+                z-index: -1;
+                top: 36px;
+            }
+            .pattern-bottom {
+                // display: none;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                z-index: -1;
+            }
+        }

@@ -1,0 +1,181 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+@media (min-width: 684px) {
+  .quotes {
+    position: absolute;
+    top: -11vh;
+    left: 15%;
+  }
+  .slider-1 {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+  }
+  .slider-2 {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+  }
+  .testimony {
+    width: 640px;
+    height: auto;
+    position: absolute;
+    top: 200px;
+    left: 155px;
+  }
+  .msg {
+    font-size: 32px;
+  }
+  .author {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 40px;
+  }
+  .name {
+    font-weight: 700;
+    margin-right: 10px;
+  }
+  .position {
+    font-weight: 300;
+  }
+  .profile {
+    position: relative;
+    float: right;
+    height: 100vh;
+    width: 50%;
+  }
+  .img {
+    position: absolute;
+    top: 84px;
+    left: 52px;
+    height: 450px;
+    -webkit-box-shadow: -95px 141px 30px -112px rgba(186, 186, 207, 0.6);
+            box-shadow: -95px 141px 30px -112px rgba(186, 186, 207, 0.6);
+  }
+  .buttons {
+    top: 508px;
+    left: 82px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 16px;
+    width: 105px;
+    background: white;
+    border-radius: 30px;
+    position: absolute;
+  }
+  .pattern-right {
+    height: 538px;
+    position: absolute;
+    z-index: -1;
+    top: 36px;
+  }
+  .pattern-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  }
+}
+
+@media (max-width: 683px) {
+  .slider-1 {
+    height: 100vh;
+    position: relative;
+    padding: 10px;
+  }
+  .slider-2 {
+    height: 100vh;
+    position: relative;
+    padding: 10px;
+  }
+  .profile {
+    height: 311px;
+    width: 328px;
+    margin: 0 auto 56px;
+    position: relative;
+  }
+  .img {
+    left: 50%;
+    width: 255px;
+    height: 253px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    -webkit-box-shadow: -40px 74px 20px -63px #babacf;
+            box-shadow: -40px 74px 20px -63px #babacf;
+  }
+  .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 76px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 8px;
+    border-radius: 20px;
+    position: absolute;
+    top: 86%;
+    left: 43%;
+    background: white;
+  }
+  .pattern-right {
+    height: 100%;
+  }
+  .testimony {
+    position: relative;
+    width: 312px;
+    margin: auto;
+  }
+  .quotes {
+    position: absolute;
+    top: -21%;
+    width: 60px;
+    height: 51px;
+    left: 104px;
+  }
+  .msg {
+    font-weight: 500;
+  }
+  .author {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 28px;
+  }
+  .name {
+    font-weight: 700;
+    margin-right: 10px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .position {
+    font-weight: 300;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .pattern-bottom {
+    position: absolute;
+    bottom: 0;
+    height: 70px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

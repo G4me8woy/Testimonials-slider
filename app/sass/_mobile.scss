@@ -1,0 +1,75 @@
+@media (max-width: 683px) {
+    .slider-1 {
+        height: 100vh;
+        position: relative;
+        padding: 10px;
+    }
+    .slider-2 {
+        height: 100vh;
+        position: relative;
+        padding: 10px;
+    }
+    .profile {
+        height: 311px;
+        width: 328px;
+        margin: 0 auto 56px;
+        position: relative;
+    }
+    .img {
+        left: 50%;
+        width: 255px;
+        height: 253px;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        box-shadow: -40px 74px 20px -63px hsl(240, 18%, 77%);
+    }
+    .buttons {
+        display: flex;
+        width: 76px;
+        justify-content: space-between;
+        padding: 8px;
+        border-radius: 20px;
+        position: absolute;
+        top: 86%;
+        left: 43%;
+        background: white;
+    }
+    .pattern-right {
+        height: 100%;
+    }
+    .testimony {
+        position: relative;
+        width: 312px;
+        margin: auto;
+    }
+    .quotes {
+        position: absolute;
+        top: -21%;
+        width: 60px;
+        height: 51px;
+        left: 104px;
+    }
+    .msg {
+        font-weight: 500;
+    }
+    .author {
+        display: flex;
+        flex-direction: column;
+        margin-top: 28px;
+    }
+    .name {
+        font-weight: 700;
+        margin-right: 10px;
+        align-self: center;
+    }
+    .position {
+        font-weight: 300;
+        align-self: center;
+    }
+    .pattern-bottom {
+        position: absolute;
+        bottom: 0;
+        height: 70px;
+    }
+}
