@@ -5,5 +5,13 @@
     font-family: 'Inter', sans-serif;
 }
 
+.left-button:hover {
+    cursor: pointer;
+}
+
+.right-button:hover {
+    cursor: pointer;
+}
+
 $Dark-Blue: hsl(240, 38%, 20%);
 $Grayish-Blue: hsl(240, 18%, 77%);
